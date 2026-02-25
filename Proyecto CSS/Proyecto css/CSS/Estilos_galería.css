@@ -1,0 +1,20 @@
+.galería {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+
+.galería img {
+    width: 300px;
+    height: 850px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: zoom-in;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.galería img:hover {
+    transform: scale(1.10);
+    box-shadow: 0 5px 10px rgba(0,0,0,0);
+}
